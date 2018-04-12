@@ -74,6 +74,7 @@ marquee {
 .product_item h3 {
   border: 0px;
   padding:0;
+  height:55px;
   font-size: 16px;
   font-weight: 600;
   color: #034e9e;
