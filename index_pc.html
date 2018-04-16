@@ -15,7 +15,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/owl.carousel.min.css" rel="stylesheet">
     <link href="css/owl.theme.default.min.css" rel="stylesheet">
-    <link href="css/style_m.css" rel="stylesheet">
+    <link href="css/style_pc.css" rel="stylesheet">
     <script type="text/javascript">
 
       var URL = document.location.toString();
@@ -55,10 +55,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link url" href="#one">首頁
-                <span class="sr-only">(current)</span>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link url" href="#one">首頁</a>
             </li>
             <li class="nav-item">
               <a class="nav-link url" href="#two">產品</a>
@@ -78,89 +76,104 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container">
-
+    <div class="all-container">
       <!-- Team Members Row -->
       <div class="row">
         <div class="content owl-carousel owl-theme">
           <div id="announce" class="item" data-hash="one">
             <div class="slider owl-carousel owl-theme">
-			    <div class="item"><img src="img/slider1.jpg"></div>
-			    <div class="item"><img src="img/slider2.jpg"></div>
-          <div class="item"><img src="img/slider3.jpg"></div>
-          <div class="item"><img src="img/slider4.jpg"></div>
-          <div class="item"><img src="img/slider5.jpg"></div>
-			</div>
-			<div class="marquee">
-				<i class="fa fa-bell"  aria-hidden="true"></i>
-				<marquee>我是跑馬燈~我是跑馬燈~我是跑馬燈~我是跑馬燈~</marquee>
-			</div>
-			<div class="menu owl-carousel owl-theme">
-			    <div class="item"><img src="img/icon1.png"><span>選單1</span></div>
-			    <div class="item"><img src="img/icon2.png"><span>選單2</span></div>
-			    <div class="item"><img src="img/icon3.png"><span>選單3</span></div>
-			    <div class="item"><img src="img/icon4.png"><span>選單4</span></div>
-			</div>
-			<div class="product_list">
-          <h3><i class="fa fa-thumbs-o-up" aria-hidden="true" ></i>熱門商品</h3>
-			    <a href="#">
-            <div class="product_item">
-              <img src="img/product_img1.jpg">
-              <h3>日本4G無限上網卡 預付卡 5天</h3>
-              <p class="price">含稅價:<span>TWD $399</span></p>
+              <div class="item"><img src="img/slider1.jpg"></div>
+              <div class="item"><img src="img/slider2.jpg"></div>
+              <div class="item"><img src="img/slider3.jpg"></div>
+              <div class="item"><img src="img/slider4.jpg"></div>
+              <div class="item"><img src="img/slider5.jpg"></div>
             </div>
-          </a>
-          <a href="#">
-            <div class="product_item">
-              <img src="img/product_img2.jpg">
-              <h3>日本4G無限上網卡 預付卡 8天</h3>
-              <p class="price">含稅價:<span>TWD $399</span></p>
+           
+              <div class="marquee">
+                <div class="container">
+                  <i class="fa fa-bell-o" aria-hidden="true"></i>
+                  <marquee onMouseOver="this.stop()" onMouseOut="this.start()">
+                    <a href="#">Fine 新聞 : 我是跑馬燈~我是跑馬燈~我是跑馬燈~</a>
+                    <a href="#">Fine 新聞 : 我還是跑馬燈~我又是跑馬燈~跑馬燈又來了~</a>
+                  </marquee>
+                </div>
+              </div>
+            <div class="container">
+              <div class="menu owl-carousel owl-theme">
+                  <div class="item"><a href="#"><img src="img/pc_icon1.png"><span>選單1</span></a></div>
+                  <div class="item"><a href="#"><img src="img/pc_icon2.png"><span>選單2</span></a></div>
+                  <div class="item"><a href="#"><img src="img/pc_icon3.png"><span>選單3</span></a></div>
+                  <div class="item"><a href="#"><img src="img/pc_icon4.png"><span>選單4</span></a></div>
+                  <div class="item"><a href="#"><img src="img/pc_icon1.png"><span>選單5</span></a></div>
+                  <div class="item"><a href="#"><img src="img/pc_icon2.png"><span>選單6</span></a></div>
+                  <div class="item"><a href="#"><img src="img/pc_icon3.png"><span>選單7</span></a></div>
+                  <div class="item"><a href="#"><img src="img/pc_icon4.png"><span>選單8</span></a></div>
+              </div>
+              <div class="product_list">
+                  <h3><i class="fa fa-thumbs-o-up" aria-hidden="true" ></i>熱門商品</h3>
+                  <div class="row">
+                    <a href="#" class="card col">
+                      <div class="product_item">
+                        <img src="img/product_img1.jpg">
+                        <h3>日本4G無限上網卡 預付卡 5天</h3>
+                        <p class="price">含稅價:<span>TWD $399</span></p>
+                      </div>
+                    </a>
+                    <a href="#" class="card col">
+                      <div class="product_item">
+                        <img src="img/product_img2.jpg">
+                        <h3>日本4G無限上網卡 預付卡 8天</h3>
+                        <p class="price">含稅價:<span>TWD $399</span></p>
+                      </div>
+                    </a>
+                    <a href="#" class="card col">
+                      <div class="product_item">
+                        <img src="img/product_img3.jpg">
+                        <h3>泰國8天 4G 上網卡 2.5GB (無限流量2G)</h3>
+                        <p class="price">含稅價:<span>TWD $399</span></p>
+                      </div>
+                    </a>
+                    <a href="#" class="card col">
+                      <div class="product_item">
+                        <img src="img/product_img4.jpg">
+                        <h3>澳亞 8天 多國 4G / 3G 通用上網卡</h3>
+                        <p class="price">含稅價:<span>TWD $399</span></p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="row">
+                    <a href="#" class="card col">
+                      <div class="product_item">
+                        <img src="img/product_img5.jpg">
+                        <h3>香港澳門 8天 通用 4G / 3G 上網卡</h3>
+                        <p class="price">含稅價:<span>TWD $399</span></p>
+                      </div>
+                    </a>
+                    <a href="#" class="card col">
+                      <div class="product_item">
+                        <img src="img/product_img6.jpg">
+                        <h3>韓國 4G/3G 上網卡 8天</h3>
+                        <p class="price">含稅價:<span>TWD $399</span></p>
+                      </div>
+                    </a>
+                    <a href="#" class="card col">
+                      <div class="product_item">
+                        <img src="img/product_img7.jpg">
+                        <h3>美國/加拿大/墨西哥4G上網卡15 天無限流量不降速</h3>
+                        <p class="price">含稅價:<span>TWD $399</span></p>
+                      </div>
+                    </a>
+                    <a href="#" class="card col">
+                      <div class="product_item">
+                        <img src="img/product_img8.jpg">
+                        <h3>歐亞美多國4G/3G預付卡30天 9GB(英國加碼多送3GB)</h3>
+                        <p class="price">含稅價:<span>TWD $399</span></p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </a>
-          <a href="#">
-            <div class="product_item">
-              <img src="img/product_img3.jpg">
-              <h3>泰國8天 4G 上網卡 2.5GB (無限流量2G)</h3>
-              <p class="price">含稅價:<span>TWD $399</span></p>
-            </div>
-          </a>
-          <a href="#">
-            <div class="product_item">
-              <img src="img/product_img4.jpg">
-              <h3>澳亞 8天 多國 4G / 3G 通用上網卡</h3>
-              <p class="price">含稅價:<span>TWD $399</span></p>
-            </div>
-          </a>
-          <a href="#">
-            <div class="product_item">
-              <img src="img/product_img5.jpg">
-              <h3>香港澳門 8天 通用 4G / 3G 上網卡</h3>
-              <p class="price">含稅價:<span>TWD $399</span></p>
-            </div>
-          </a>
-          <a href="#">
-            <div class="product_item">
-              <img src="img/product_img6.jpg">
-              <h3>韓國 4G/3G 上網卡 8天</h3>
-              <p class="price">含稅價:<span>TWD $399</span></p>
-            </div>
-          </a>
-          <a href="#">
-            <div class="product_item">
-              <img src="img/product_img7.jpg">
-              <h3>美國/加拿大/墨西哥4G上網卡15 天無限流量不降速</h3>
-              <p class="price">含稅價:<span>TWD $399</span></p>
-            </div>
-          </a>
-          <a href="#">
-            <div class="product_item">
-              <img src="img/product_img8.jpg">
-              <h3>歐亞美多國4G/3G預付卡30天 9GB(英國加碼多送3GB)</h3>
-              <p class="price">含稅價:<span>TWD $399</span></p>
-            </div>
-          </a>
-			</div>
-          </div>
           <div id="pray" class="item" data-hash="two">
               <div class="row">
                   <div id="pray_search" class="col-lg-12">
@@ -462,12 +475,11 @@
     <!-- /.container -->
 
     
-    <div class="footer_menu d-md-none">
-      <a class="url" href="#one"><i class="fa fa-home" aria-hidden="true"></i><span>首頁</span></a> 
-      <a class="url" href="#two"><i class="fa fa-heart" aria-hidden="true"></i><span>產品</span></a> 
-      <a class="url" href="#three"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>購物車</span></a> 
-      <a class="url" href="#four"><i class="fa fa-list-ul" aria-hidden="true"></i><span>產品</span></a> 
-      <a class="url" href="#five"><i class="fa fa-info-circle" aria-hidden="true"></i><span>關於</span></a> 
+    <div class="footer_menu">
+      <p>©2018&nbsp;by FINE 出國跨境行動上網</p>
+      <p>台北市信義區信義路5段5號6樓6E09室</p>
+      <p>客服專線：（02) 8221-1828</p>
+      <p>營業時間：週一到週五 09：00 ~ 18：00</p>
     </div>
 
     <!-- Bootstrap core JavaScript -->
@@ -481,6 +493,7 @@
         loop:false,
         margin:10,
         center:true,
+        mouseDrag:false,
         touchDrag:false,
         dots:false,
         autoHeight:true,
@@ -490,10 +503,11 @@
       });
       $('.slider').owlCarousel({
         items:1,
+        autoplay:true
       });
       $('.menu').owlCarousel({
-	    loop:true,
-	    dots:false,
+      dots:false,
+      margin:15,
 	    responsive:{
         0:{
             items:4
@@ -503,9 +517,9 @@
         },
         1000:{
             items:4
+          }   
         }
-    }
-		});
+      })
     </script>
 
   </body>
