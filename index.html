@@ -22,14 +22,14 @@
       var useragent = navigator.userAgent;
       useragent = useragent.toLowerCase();
       
-      if( useragent.indexOf('iphone') != -1 ) location.replace("https://yuningchou.github.io/web-demo/index.html");//iphone
-      else if( useragent.indexOf('ipad') != -1 || useragent.indexOf('ipod') != -1) location.replace("https://yuningchou.github.io/web-demo/index_pc.html");//ipad
+      if( useragent.indexOf('iphone') != -1 ) location.replace("https://itunes.apple.com/us/app/li-da-zi-xun-xing-dongapp/id665035983?l=zh&ls=1&mt=8");//iphone
+      else if( useragent.indexOf('ipad') != -1 || useragent.indexOf('ipod') != -1) location.replace("https://itunes.apple.com/us/app/li-da-zi-xun-xing-dongapp/id665035983?l=zh&ls=1&mt=8");//ipad
       else if( useragent.indexOf('android') != -1 ) {
       if( ConsiderLimits() )
       {
-      location.replace("https://yuningchou.github.io/web-demo/index_pc.html"); // android pad
+      location.replace("https://play.google.com/store/apps/details?id=tw.com.giantapp.sample"); // android pad
       }else{
-      location.replace("https://yuningchou.github.io/web-demo/index.html"); // android phone
+      location.replace("https://play.google.com/store/apps/details?id=tw.com.giantapp.sample"); // android phone
       }
       }else{
       location.replace("https://yuningchou.github.io/web-demo/index_pc.html"); // PC
