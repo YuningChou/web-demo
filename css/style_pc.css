@@ -58,7 +58,6 @@ marquee a:hover{
 }
 .menu{
   margin:35px 0;
-  float:left;
 }
 .menu .item {
   text-align: center;
@@ -82,7 +81,20 @@ marquee a:hover{
   font-size: 26px;
   color: white;
 }
-
+.section1{
+  background:url('../img/bg01.jpg');
+  background-size:cover;
+  color:white;
+  text-align:center;
+  padding:80px 0;
+}
+.section1 h2{
+  margin-bottom:20px
+}
+.section1 p{
+  font-size:18px;
+  line-height:2;
+}
 .product_list h3 i{
   display:inline-block;
   margin-right: 10px;
