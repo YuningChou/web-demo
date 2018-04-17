@@ -14,7 +14,7 @@ body {
 .navbar-brand {
     margin: 0 auto;
 }
-.nav-link{
+.navbar-nav .nav-link{
   color:white;
 }
 .navbar-nav li:hover {
@@ -25,6 +25,19 @@ body {
 }
 .navbar-nav > li > a:focus {
   background:#003f82;
+}
+.order_btn {
+  background: #ff5c5c;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 20px;
+  font-weight: bold;
+}
+.order_btn:hover{
+  background: #ff3838;
+  text-decoration: none;
+  color:white;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #034e9e;
@@ -145,19 +158,38 @@ marquee a:hover{
 .product_item .price span{
   color:#ff4848;
 }
-.footer_menu {
+
+footer {
   width: 100%;
   z-index: 9999;
   bottom: 0;
   background:#034e9e;
-  padding:20px;
+  padding: 20px 0 0;
   margin-top:30px;
 }
-
+.footer_menu{
+  padding-bottom:20px;
+}
 .footer_menu p{
   margin-bottom:0;
   color:white;
+}
+.copyright p{
+  margin-bottom:0;
+  color:white;
   text-align:center;
+}
+.social li{
+  display:inline-block;
+  float:left;
+  margin:0 10px;
+}
+.copyright{
+  width: 100%;
+  z-index: 9999;
+  bottom: 0;
+  background:#003c7b;
+  padding:5px;
 }
 
 #other {
@@ -205,35 +237,33 @@ marquee a:hover{
   float: right;
   margin: 0 5px;
 }
-
-#album {
-  padding: 10px 20px;
+/* 常見問題 start*/
+#faq {
+  padding:  20px;
+  height:1300px;
 }
-
-#album #album_search {
-  padding: 0 8px;
-  margin-bottom: 10px;
+.faq-title{
+  margin: 10px 0 20px;
 }
-
-#album .album {
-  padding: 0 5px;
-  margin-bottom: 10px;
+.faq-title i{margin-right:10px}
+#faq .card{
+  border-radius:0px;
 }
-
-#album .album .card-body {
-  padding: 5px 10px;
+#faq .card:hover{
+  box-shadow:none;
 }
-
-#album .album .card-title {
-  font-size: 16px;
-  margin-bottom: 0;
+#faq .card-header{
+  padding:0;
 }
-
-#album .album .card-text {
-  font-size: 12.8px;
-  color: #666;
+#faq .card-header .btn{
+  width:100%;
+  text-align:left;
 }
-
+#faq .card-header .btn:hover,#faq .card-header .btn:focus{
+  text-decoration: none;
+}
+.card-body{padding:15px;}
+/* 常見問題 end*/
 #worship {
   padding: 10px;
 }
