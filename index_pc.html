@@ -17,7 +17,14 @@
     <link href="css/owl.theme.default.min.css" rel="stylesheet">
     <link href="css/style_pc.css" rel="stylesheet">
   </head>
-
+ <script type="text/javascript">
+    var ismobile=navigator.userAgent.match(/J2ME|Opera Mini|SonyEricsson|Nokia|iPhone|iPod|BB10|PlayBook|android|webOS|BlackBerry|Windows Phone|Windows CE/i) != null;
+    if (ismobile) {
+    var redirect = confirm('您的手機適合手機版網頁，是否要轉到手機版網頁呢？');
+    if (redirect)
+    window.location = 'index.html';
+    }
+  </script>
   <body>
 
     <!-- Navigation -->
