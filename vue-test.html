@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://unpkg.com/http-vue-loader"></script>
+  </head>
+
+  <body>
+    <div id="my-app">
+      <my-component></my-component>
+
+      {{test}}
+    </div>
+
+    <script type="text/javascript">
+      new Vue({
+        el: '#my-app',
+        test: 'test',
+        components: {
+          'my-component': httpVueLoader('header.vue')
+        }
+      });
+    </script>
+  </body>
+</html>

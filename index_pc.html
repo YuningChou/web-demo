@@ -26,12 +26,12 @@
     }
   </script>
   <body>
-
     <!-- Navigation -->
     <header id="header">
-      <nav class="navbar navbar-expand-lg  fixed-top">
+      <nav-menu></nav-menu>
+      <!--<nav class="navbar navbar-expand-lg  fixed-top">
         <div class="container">
-          <a class="navbar-brand" :href="idxUrl"><img src="img/logo.png" style="width:80px">{{brand}}</a>
+          <a class="navbar-brand" :href="idxUrl"><img :src="'img/'+ brandLogo" style="width:80px">{{brand}}</a>
           <button class="navbar-toggler d-none d-lg-block d-xl-none" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -56,7 +56,7 @@
           </div>
           <a href="#" class="order_btn">我要預約</a>
         </div>
-      </nav>
+      </nav>-->
     </header>
     <!-- Page Content -->
     <div class="all-container">
@@ -784,6 +784,7 @@
     <!-- Bootstrap core JavaScript -->
     <script src="js/jquery.min.js"></script>
     <script src="https://vuejs.org/js/vue.min.js"></script>
+    <script src="https://unpkg.com/http-vue-loader@1.3.4/src/httpVueLoader.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/all.js"></script>
