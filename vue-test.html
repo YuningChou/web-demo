@@ -8,14 +8,15 @@
   <body>
     <div id="my-app">
       <my-component></my-component>
-
-      {{test}}
+      {{ message }}
     </div>
 
     <script type="text/javascript">
       new Vue({
         el: '#my-app',
-        test: 'test',
+        data :{
+          message: 'hello'
+        },
         components: {
           'my-component': httpVueLoader('header.vue')
         }
