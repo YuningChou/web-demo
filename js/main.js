@@ -47,9 +47,9 @@ var product = new Vue({
   },
   mounted: function(){
     $.ajax({
-     url:'https://gist.githubusercontent.com/YuningChou/9d64bcbf12266175cdbadeee21266c9a/raw/f5c7482295b24450da7947be3da531869fa5cdd9/gist.json',
+     url:'https://gist.githubusercontent.com/YuningChou/9d64bcbf12266175cdbadeee21266c9a/raw/5e06d1040cce7c6e187f515fa75d4c8918fca696/gist.json',
      success: function(result){
-       alert('success');
+      console.log('success');
        product.products = JSON.parse(result)
        console.log(result)
      },
